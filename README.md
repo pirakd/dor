@@ -1,6 +1,6 @@
 # DeepOrienter
 ### Deep orienter of protein-protein interaction networks
-This is the repository of the paper "D'or: Deep orienter of protein-protein interaction networks"
+This is the repository of the paper ["D'or: Deep orienter of protein-protein interaction networks"](https://doi.org/10.1093/bioinformatics/btae355)
 <img src="scheme.jpg" width="600"/>
 
 ### Getting started
@@ -22,9 +22,6 @@ pip install -r path/to/project/requirements.txt
 - **Train example script** in [scripts/main.py](scripts/main.py) and **model load and inference example script** in [scripts/inference.py](scripts/inference.py).
 For this purpose we also added a pre computed [propagation scores file](input/propagation_scores/) generated using 5 AML patients and a [deep model](input/models/18_01_2023__17_57_15_354) trained using these propgation scores and KPI interactions. 
 - **Implementations of two previous methods** mentioned in the paper: [D2D.py](D2D.py) and [Vinayagam.py](Vinayagam.py)
-
-
-### Citation 
 
 
 ### License
